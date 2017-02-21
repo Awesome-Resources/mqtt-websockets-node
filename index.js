@@ -117,5 +117,5 @@ io.on('connection', function(socket) {
 });
 
 server.listen(process.env.PORT || 3001, function() {
-    console.log('Example app listening on port 3001!')
+    console.log('Listening on port ' + process.env.PORT || 3001)
 })
